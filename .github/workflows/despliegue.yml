@@ -27,3 +27,6 @@ jobs:
           registry-url: 'https://npm.pkg.github.com/'
           # Usuario u organización propietaria del workflow
           scope: '@jhparra777'
+    
+      - name: Instalar dependencias usando versiones de package-lock.json
+        run: npm ci
