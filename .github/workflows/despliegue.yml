@@ -30,8 +30,8 @@ jobs:
     
       - name: Configurar npm
         run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          echo "@jhparra777:registry=https://npm.pkg.github.com" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+          echo "@jhparra777:registry=https://npm.pkg.github.com" >> .npmrc
     
       - name: Instalar dependencias usando versiones de package-lock.json
         run: npm ci
