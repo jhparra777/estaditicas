@@ -11,7 +11,7 @@ Crear un token nuevo y luego
 
 npm login --registry=https://npm.pkg.github.com
 
-pedira el user : jhparra77
+pedira el user : jhparra777
 password : el token
 
-# Continuar
+# Continuar ..
