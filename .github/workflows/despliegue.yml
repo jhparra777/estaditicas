@@ -1,0 +1,9 @@
+name: Publicar paquete en GitHub Packages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publicar-paquete:
+    runs-on: ubuntu-latest
