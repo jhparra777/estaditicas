@@ -1,6 +1,6 @@
 {
   "name": "@jhparra777/estadistica",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jhparra777/estaditicas/blob/main/README.md",
   "description": "Funciones estadísticas y generación de gráficas con Node.js.",
   "dependencies": {
+    "@jhparra777/estadistica": "^1.0.2",
     "canvas": "^3.1.0",
     "chart.js": "^4.4.9",
     "chartjs-node-canvas": "^5.0.0"
