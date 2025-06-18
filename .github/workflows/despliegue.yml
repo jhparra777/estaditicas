@@ -30,3 +30,8 @@ jobs:
     
       - name: Instalar dependencias usando versiones de package-lock.json
         run: npm ci
+        
+      - name: Publicar el paquete en GitHub Packages
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
